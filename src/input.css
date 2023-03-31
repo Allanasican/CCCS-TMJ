@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply font-poppins
+    }
+    .gradient-left {
+        background: linear-gradient(to right, rgb(255, 255, 255) 25%, rgba(255,255,255,0) 60%), 
+        url('./img/banner.jpg') no-repeat left center;
+        background-position: center;
+        background-size: cover;
+      }
+}
+.header .toggleMenu span{
+    margin-left: auto;
+    height: 0.2rem;
+    width: 2rem;
+    @apply bg-secondary block mb-1
+}
