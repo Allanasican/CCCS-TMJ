@@ -19,3 +19,16 @@
     width: 2rem;
     @apply bg-secondary block mb-1
 }
+.theFigure .item:nth-child(1) {
+    @apply absolute left-[50%] -bottom-2 md:-bottom-[12px] -translate-x-[120%] -translate-y-0 object-cover
+
+}
+
+.theFigure .item:nth-child(2) {
+    @apply absolute left-[50%] bottom-0 -translate-x-[45%] -translate-y-0  object-cover
+
+}
+
+.theFigure .item:nth-child(3) {
+    @apply absolute left-[45%] md:left-[50%] -bottom-3 md:-bottom-[17px] translate-x-[38%] -translate-y-0 object-cover
+}
