@@ -1233,6 +1233,11 @@ body {
   }
 }
 
+.icons{
+  font-size: 10rem;
+  font-weight: 100;
+}
+
 .hover\:rounded-full:hover {
   border-radius: 9999px;
 }
